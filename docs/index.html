@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="manifest" href="manifest.json">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+    <ion-content>
+
+        <main id="main-game">
+            <section id="screen-game">
+                <section id="background-game" class="animated">
+                    <section id="flyarea-game">
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="assets/documents/Dinotap.apk" target="iframe_download">
+                            <div id="btnDownload"></div>
+                        </a>
+                        <div id="ceiling" class="animated"></div>
+                        <div id="player" class="dino animated"></div>
+                        <div id="bigscore"></div>
+                        <div id="splash"></div>
+                        <div id="scoreboard">
+                            <div id="medal"></div>
+                            <div id="currentscore"></div>
+                            <div id="highscore"></div>
+                            <div id="replay"><img src="assets/replay.png" alt="replay"></div>
+                        </div>
+                    </section>
+                </section>
+                <section id="footer-game" class="animated"></section>
+            </section>
+        </main>
+    </ion-content>
+
+    <script src="js/fb-jquery.min.js"></script>
+    <script src="js/fb-jquery.transit.min.js"></script>
+    <script src="js/fb-buzz.min.js"></script>
+    <script src="js/fb-main.js"></script>
+</body>
+
+</html>
